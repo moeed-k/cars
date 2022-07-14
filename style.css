@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color:whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    height: 10%;
+
+}
+
+.navbar .container{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar .container .logo{
+    width:70px;
+    height: 50px;
+}
+
+.navbar .container .user{
+    width:80px;
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+
+
+.page{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.page .sidebar{
+    width: 10%;
+    flex-grow: 0.1;
+    background-color:aliceblue;
+    padding: 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+ul{
+    height:min-content;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 40%;
+}
+
+.content .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content .container .logo{
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom:20px;
+    height: 15%;
+}
+
+.header{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.stats{
+    flex: 1 2.5 auto;
+    display: flex;
+}
+
+.car-details{
+    display:flex;
+    height:75%;
+}
+
+.cards{
+    display:flex;
+    flex:0 15 auto;
+    gap: 2%;
+}
+
+.card{
+    
+    width: 25%;
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 15px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+h2{
+    height:fit-content;
+    font-weight:bolder;
+    color: red;
+}
+.car{
+    display:flex;
+    flex-direction: column;
+}
+
+.stats{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+
+}
+
+.colors{
+    height:90%;
+    background-color: white;
+    border-radius: 0 2rem 2rem 0;
+}
+
+.box{
+    height: 33%;
+    align-self:right;
+}
+
+.carimage{
+    background-color: white;
+    width:300%;
+    height: 90%;
+    border-radius:2rem 0 0 2rem;
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
+
+.carimage img{
+    margin: 0 auto;
+    width:80%;
+    height:auto;
+}
+
+.box{
+    padding: 15 px;
+}
+.box img{
+    border-radius: 1rem;
+    padding:5px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+.stats img{
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.stats .svg{
+    padding:10px;
+    background-color: white;
+    width:80%;
+    height: auto;
+    margin-bottom:20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+
