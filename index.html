@@ -1,84 +1,70 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" lang="en">
-        <title>Demo</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Demo</title>
+</head>
+<body>
+    <div class="page">
+        <div class="navbar">
+            <ul class="container">
+                <li>LOGO</li>
+                <li>USR</li>
+            </ul>
+        </div>
 
-    <body>        
-        <nav class="navbar">
+        <div class="content">
             <div class="container">
-                <img class="logo" src="./imgs/logo.jpg" alt="logo">
-                <img class="user" src="./imgs/user.jpg" alt="logo">
-                
-            </div>
-        </nav>
-
-        <div class="page">
-            <div class="sidebar">
-                <div class="container">
-                    <ul>
-                        <li><img src="./imgs/button.png" alt="button"></li>
-                        <li><img src="./imgs/button.png" alt="button"></li>
-                        <li><img src="./imgs/button.png" alt="button"></li>
+                <div class="sidebar">
+                    <ul class="container">
+                        <li>BUTTON</li>
+                        <li>BUTTON</li>
+                        <li>BUTTON</li>
                     </ul>
                 </div>
-            </div>
 
-            <div class="content">
-                <div class="container">
-
-                    <div class="logo">
-                        Car Inspection Detail
-                    </div>
-
-                <div class="header">
-                    <div class="car">
-                        <div class="car-details">
-                            <div class="carimage">
-                                <img src="./imgs/car.jpg" alt="car">
-                            </div>
-                            <div class="colors">
-                                <div class="box">
-                                    <img src="./imgs/color1.jpg" alt="color">
+                <div class="main-section">
+                    <div class="container">
+                        <div class="header">
+                            header
+                        </div>
+                        <div class="car">
+                            <div class="container">
+                                <div class="col car-col">
+                                    <div class="container">
+                                        <div class="car-image">
+                                            <div class="photo">
+                                                car image
+                                            </div>
+                                            <div class="colors">
+                                                <div class="container">
+                                                    <img src="./imgs1/color1.jpg" alt="">
+                                                    <img src="./imgs1/color2.jpg" alt="">
+                                                    <img src="./imgs1/color3.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cards">
+                                            <div class="card">card1</div>
+                                            <div class="card">card2</div>
+                                            <div class="card">card3</div>
+                                            <div class="card">card4</div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="box">
-                                    <img src="./imgs/color2.jpg" alt="color">
-                                </div>
-                                <div class="box">
-                                    <img src="./imgs/color3.jpg" alt="color">
+                                <div class="col stats-col container">
+                                    <div class="chart">chart1</div>
+                                    <div class="chart2">chart2</div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="cards">
-                            <div class="card">
-                                <h2>1</h2>
-                                <p>Lorem Ipsum</p>
-                            </div>
-                            <div class="card">
-                                <h2>2</h2>
-                                <p>Lorem Ipsum</p>
-                            </div>
-                            <div class="card">
-                                <h2>3</h2>
-                                <p>Lorem Ipsum</p>
-                            </div>
-                            <div class="card">
-                                <h2>4</h2>
-                                <p>Lorem Ipsum</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="stats">
-                        <img class="svg" src="./imgs/bar.svg" alt="chart">
-                        <img src="./imgs/pie.jpg" alt="chart">
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
+    
 </body>
 </html>
